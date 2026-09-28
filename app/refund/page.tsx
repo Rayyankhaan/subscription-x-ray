@@ -36,7 +36,7 @@ export default function RefundPage() {
 
         <section>
           <h2>How to request one</h2>
-          <p>Email [support@subscriptionxray.jo3.org3.org] with your account email and the Razorpay
+          <p>Email [support@subscriptionxray.jo3.org3.] with your account email and the Razorpay
              payment ID. Valid refund requests are processed within 5-7 business days back to
              the original payment method.</p>
         </section>
