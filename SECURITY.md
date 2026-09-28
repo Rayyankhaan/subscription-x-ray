@@ -46,6 +46,6 @@ Do not access, modify, or disclose other users' data, and do not disrupt the ser
 This policy applies to the Subscription X-Ray application and its official repository:
 
 * Repository: https://github.com/Rayyankhaan/subscription-x-ray
-* Website: https://subscription-x-ray-85na.vercel.app/
+* Website: https://subscription-x-ray.vercel.app/
 
 Thank you for helping keep Subscription X-Ray and its users secure.
