@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://subscription-x-ray.vercel.app"),
   title: "Subscription X-Ray — see what's quietly leaving your account",
   description: "Find recurring charges in your bank or card statement. Runs entirely in your browser — nothing uploaded.",
   openGraph: {
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Subscription X-Ray",
     description: "Find recurring charges in your bank or card statement.",
   },

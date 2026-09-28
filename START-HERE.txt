@@ -1,0 +1,20 @@
+SUBSCRIPTION X-RAY - WHAT TO DO (in order)
+
+1. Install Node.js from nodejs.org (once).
+2. Open this folder in VS Code. Open the terminal and run:
+      npm install
+3. Supabase: create a free project at supabase.com.
+   Open "SQL Editor", paste everything from supabase/schema.sql, click Run.
+4. Copy the file ".env.example" and rename the copy to ".env.local".
+   Fill in your Supabase URL, anon key, service role key
+   (Supabase -> Project Settings -> API) and your Razorpay webhook secret.
+5. Run:
+      npm run dev
+   Open http://localhost:3000
+6. Upload to GitHub, then on vercel.com -> New Project -> pick the repo.
+   Add the same 4 values from .env.local under Environment Variables.
+7. Razorpay webhook URL:
+      https://YOUR-SITE.vercel.app/api/razorpay/webhook
+
+Before launch: replace "[add your support email here]" in
+app/terms/page.tsx, app/privacy/page.tsx, app/refund/page.tsx.
