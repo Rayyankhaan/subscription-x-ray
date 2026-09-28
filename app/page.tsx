@@ -5,7 +5,15 @@ export default function Home() {
     <>
       <nav>
         <div className="wrap navrow">
-          <div className="brand">subscription x-ray</div>
+          <Link href="/" className="logo" aria-label="Subscription X-Ray home">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <rect width="32" height="32" rx="9" fill="#233247" />
+              <circle cx="14" cy="14" r="6.5" stroke="#fff" strokeWidth="2.2" />
+              <path d="M19 19l5.5 5.5" stroke="#fff" strokeWidth="2.4" strokeLinecap="round" />
+              <path d="M9 14h10" stroke="#2FD5A6" strokeWidth="2" strokeLinecap="round" />
+            </svg>
+            <span className="logo-text">subscription x-ray</span>
+          </Link>
           <div className="navlinks">
             <a href="#how">How it works</a>
             <a href="#pricing">Pricing</a>
