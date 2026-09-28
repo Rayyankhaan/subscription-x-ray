@@ -65,7 +65,7 @@ export default function TermsPage() {
 
         <section>
           <h2>8. Contact</h2>
-          <p>Questions about these terms: [add your support email here].</p>
+          <p>Questions about these terms: [support@subscriptionxray.jo3.org].</p>
         </section>
       </div>
     </main>
